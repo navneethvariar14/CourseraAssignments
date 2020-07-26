@@ -1,0 +1,99 @@
+#header-nav{
+    background-color: rgb(182, 213, 253);
+    border: none;
+    border-radius: 0%;
+}
+
+.navbar-brand{
+    font-size: 2.5em;
+    font-weight: bold;
+    color: rgb(56, 2, 107);
+    font-family: fantasy;
+    margin: 8px;
+}
+.navbar-brand a{
+    color: rgb(56, 2, 107);
+}
+.navbar-brand a:hover{
+    text-decoration: none;
+}
+#collapsable-nav{
+    background-color: rgb(161, 189, 224);
+}
+body{
+    background-color: rgb(227, 165, 252);
+}
+#main-container h1{
+    font-size: 2em;
+    padding-bottom: 10px;
+    font-weight: bold;
+    color: rgb(24, 1, 61);
+    font-family: cursive;
+}
+#c, #b, #s{
+    background-color: rgb(196, 109, 253);
+    padding: 15px;
+    margin: 8px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#ckn-head, #beef-head, #sushi-head{
+    font-size: 1.3em;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.navbar-header{
+    height: 65px;
+}
+#nav-list{
+    text-align: center;
+    font-family: monospace;
+    font-weight: 900;
+    font-size: 20px;
+    font-style: italic;
+    padding: 0%;
+}
+.nav-item{
+    padding: 0;
+}
+.nav-item:hover{
+    background-color: rgb(112, 163, 224);
+}
+.nav-item a span{
+    color: rgb(59, 59, 59);
+}
+
+@media (min-width: 767px){
+    #nav-list, #collapsable-nav{
+        visibility: hidden;
+    }
+
+}
+@media (min-width: 1200px) {
+    
+}
+  
+  /********** Medium devices only **********/
+  @media (min-width: 992px) and (max-width: 1199px) {
+    
+  }
+  
+  /********** Small devices only **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+    
+  }
+  
+  /********** Extra small devices only **********/
+  @media (max-width: 767px) {
+    .navbar-header{
+        height: 14vw;
+    }
+    .navbar-brand{
+        font-size: 8vw;
+        height: 8vw;
+    }
+    #collapsable-nav{
+        clear: both;
+    }
+  }
+ 
