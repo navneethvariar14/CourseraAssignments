@@ -24,7 +24,7 @@ p{
 div{
 	background-color: grey;
 	padding-top: 0px;
-	border: 2px solid black;
+	border: 1px solid black;
 	text-align: right;
 	position: relative;
 }
@@ -35,7 +35,8 @@ h4{
 	display: inline;
 	margin: 0px;
 	padding: 10px;
-	border: 1px solid black;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
 	padding-bottom: 8px;
 	padding-top: 8px;
 }
